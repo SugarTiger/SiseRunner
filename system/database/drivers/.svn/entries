@@ -1,0 +1,98 @@
+10
+
+dir
+22
+svn://172.16.144.107/SiseRunner/system/database/drivers
+svn://172.16.144.107
+
+
+
+2017-03-06T09:34:25.973385Z
+14
+Administrator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c8d3359-e2e6-df47-9955-27d5a4a43f54
+
+mssql
+dir
+
+sqlite
+dir
+
+oci8
+dir
+
+pdo
+dir
+
+ibase
+dir
+
+postgre
+dir
+
+sqlite3
+dir
+
+mysql
+dir
+
+odbc
+dir
+
+cubrid
+dir
+
+sqlsrv
+dir
+
+index.html
+file
+
+
+
+
+2017-03-06T09:36:41.608746Z
+c92aa5f16d78423a983a5d7ae44428e4
+2017-03-06T09:34:25.973385Z
+14
+Administrator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+131
+
+mysqli
+dir
+

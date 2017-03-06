@@ -1,0 +1,305 @@
+body div{
+	/*border: 1px solid #333333;*/
+}
+.header{
+	height: 20px;
+	width: 100%;
+	background-color: #009945;
+	color: white;
+	margin: 0 auto;
+}
+#wecome{
+	margin-left: 5%;
+	line-height: 20px;
+}
+#wecome a{
+	color: white;
+}
+.top-header{
+	margin: 20px 0;
+}
+.top-header #seo-div{
+	margin-top: 10px;
+}
+#logo-img2{
+		display: none;
+	}
+.search-div input[type="text"]{
+	border: 1px solid #009945;
+}
+.search-div button{
+	border: 1px solid #009945;
+	background-color: #009945;
+	color: #ffffff;
+}
+.search-div button:hover{
+	background-color: #009947;
+	color: #ffffff;
+}
+.search-div button:checked{
+	background-color: #009947;
+	color: #ffffff;
+}
+.nav-div{
+	border-left: none;
+	border-right: none;
+	background-color: #ffffff;
+}
+.nav-div2{
+	display: none;
+}
+.in-nav{
+	/*18px*/
+	width: 818px;
+	/*16px*/
+	/*width: 766px;*/
+	/*14px*/
+	/*width: 714px;*/
+	margin: 0 auto;
+}
+.in-nav a{
+	font-size: 18px;
+}
+.in-nav li{
+	margin: 0 10px;
+}
+#main{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#section-left{
+	width: 680px;
+	height: 600px;
+	float: left;
+}
+.section-header{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #D8D8D8;
+}
+.section-header a{
+	float: left;
+	line-height: 30px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #464646;
+}
+.fankuai1{
+	display: block;
+	float: left;
+	width: 8px;
+	height: 20px;
+	margin: 4px 8px 0 8px;
+	background-color: #009945;
+}
+.article{
+	width: 678px;
+	height: 160px;
+	margin: 0 auto;
+}
+#section-left article:nth-child(even){
+	background-color: #ECECEC;
+}
+
+
+.article-left{
+	width: 500px;
+	height: 100px;
+	float: left;
+}
+.tz1{
+	margin:15px 0 0 -75px;
+}
+.tz2{
+	margin:15px 0 0 23px;
+}
+.article-right{
+	width: 81px;
+	height: 100px;
+	margin: 15px 40px 0 20px;
+	float: right;
+}
+.title{
+	color:#009945 ;
+	font-size: 18px;
+}
+.ap-info{
+	font-size: 12px;
+	color: #C2C3C5;
+}
+.hd-text{
+	color: #9E9E9E;
+}
+.joining{
+	color: #ffffff;
+	background-color: #009945;
+	border: 1px solid #009945;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	width: 80px;
+	margin-bottom:70px ;
+}
+.article-right a{
+	color: #B3B3B3;
+}
+.article-right a:hover{
+	color: #009945;
+}
+#section-right{
+	width: 300px;
+	height: 798px;
+	float: right;
+	border:1px solid #D5D5D5;
+}
+.article-r{
+	width: 270px;
+	height: 250px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.article-header{
+	height: 30px;
+}
+.article-header a{
+	float: left;
+	line-height: 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #009945;
+}
+.fankuai2{
+	display: block;
+	float: left;
+	width: 8px;
+	height: 20px;
+	margin: 4px 8px 0 8px;
+	background-color: #B9BDBC;
+}
+#section-left>a{
+	display: block;
+	width: 100px;
+	text-align: center;
+	color: #999999;
+	margin: 10px auto;
+}
+#section-left>a:hover{
+	color: #009945;
+}
+.ap{
+	height: 64px;
+	width: 260px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.ap a{
+	color: #999999;
+}
+.ap-list{
+	height: 67px;
+	width: 260px;
+	background-color: #E2DEDF;
+}
+.ap-list span{
+	float: right;
+	width: 50%;
+	text-align: center;
+	line-height: 64px;
+}
+.ap-list img{
+	float: left;
+	width: 50%;
+}
+#hot-ap span{
+	float: left;
+}
+#hot-ap img{
+	float: right;
+}
+.er{
+	width: 210px;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.er img{
+	float: left;
+}
+.ap-er-right{
+	height: 70px;
+	width: 80px;
+	float: right;
+}
+.ap-er-right span{
+	text-align: center;
+	float: left;
+	width: 66px;
+	margin-bottom: 15px;
+}
+.ap-er-right input{
+	float: left;
+	color: #ffffff;
+	background-color: #009945;
+	border: 1px solid #009945;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+@media (min-width:991px) and (max-width: 1200px) {
+	#section-left{
+		width:65%;
+	}
+	.article {
+    	width: 100%;
+	}
+	.article-left{
+		width: 70%;
+	}
+	#section-right{
+		width:30%;
+	}
+}
+@media (max-width: 991px) {
+	#logo-img1{
+		display: none;
+	}
+	#logo-img2{
+		display:block;
+	}
+	.in-nav a{
+	font-size: 16px;
+	}
+	.in-nav{
+		/*16px*/
+		width: 626px;
+	}
+	.in-nav li{
+		margin: 0;
+	}
+	#section-left{
+		float: none;
+		margin: 0 auto;
+	}
+	#section-right{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.nav-div{
+		display: none;
+	}
+	.nav-div2{
+		display: block;
+	}
+	.nav-div2 button:checked{
+		background-color: #009945;
+	}
+	#in-nav2{
+		width: 96%;
+		margin: 0 auto;
+	}
+	#nav-title{
+		font-size: 17px;
+	}
+}
