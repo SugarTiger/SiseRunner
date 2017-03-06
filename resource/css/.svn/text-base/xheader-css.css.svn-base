@@ -1,0 +1,100 @@
+body div{
+	/*border: 1px solid #333333;*/
+}
+.header{
+	height: 20px;
+	width: 100%;
+	background-color: #009945;
+	color: white;
+	margin: 0 auto;
+}
+#wecome{
+	margin-left: 5%;
+	line-height: 20px;
+}
+#wecome a{
+	color: white;
+}
+.top-header{
+	margin: 20px 0;
+}
+.top-header #seo-div{
+	margin-top: 10px;
+}
+#logo-img2{
+		display: none;
+	}
+.search-div input[type="text"]{
+	border: 1px solid #009945;
+}
+.search-div button{
+	border: 1px solid #009945;
+	background-color: #009945;
+	color: #ffffff;
+}
+.search-div button:hover{
+	color: #ffffff;
+}
+.search-div button:focus{
+	color: #ffffff;
+}
+.nav-div{
+	border-left: none;
+	border-right: none;
+	background-color: #ffffff;
+}
+.nav-div2{
+	display: none;
+}
+.in-nav{
+	/*18px*/
+	width: 818px;
+	/*16px*/
+	/*width: 766px;*/
+	/*14px*/
+	/*width: 714px;*/
+	margin: 0 auto;
+}
+.in-nav a{
+	font-size: 18px;
+}
+.in-nav li{
+	margin: 0 10px;
+}
+
+@media (max-width: 991px) {
+	#logo-img1{
+		display: none;
+	}
+	#logo-img2{
+		display:block;
+	}
+	.in-nav a{
+	font-size: 16px;
+	}
+	.in-nav{
+		/*16px*/
+		width: 626px;
+	}
+	.in-nav li{
+		margin: 0;
+	}
+}
+@media (max-width: 768px) {
+	.nav-div{
+		display: none;
+	}
+	.nav-div2{
+		display: block;
+	}
+	.nav-div2 button:checked{
+		background-color: #009945;
+	}
+	#in-nav2{
+		width: 96%;
+		margin: 0 auto;
+	}
+	#nav-title{
+		font-size: 17px;
+	}
+}
