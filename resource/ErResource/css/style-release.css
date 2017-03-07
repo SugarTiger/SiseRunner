@@ -1,0 +1,303 @@
+.owns-aside,.owns-section{
+	float: left;
+	background-color: #fff;
+}
+.owns-aside,.owns-section{
+	height: 550px;
+}
+
+.gradient{
+	margin-top: 3em;
+}
+
+.gradient ul li{
+	list-style-type: none;
+}
+	
+.gradient a p{
+	font-weight: bolder;
+	margin: 2em 10% 0 10%;
+	text-indent:1.5em;
+	background: -webkit-linear-gradient(left, #339933 , #fff);
+  	background: -o-linear-gradient(right, #339933, #fff);
+	background: -moz-linear-gradient(right, #339933, #fff); 
+	background: linear-gradient(to right, #339933 , #fff); 
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=#339933);
+}
+
+.gradient a:hover{
+	text-align: right;
+	text-decoration:none;
+	color: black;
+}
+
+.btn-active{
+	text-align: right;
+}
+
+.user-datas1{
+	margin-left: 15%;
+}
+
+.hor-line{
+	border-top:1px #339933 solid;
+	float: left;
+	width:90%; 
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+			
+.ver-line{
+	height:90%; 
+	width:1px; 
+	border-left: 1px #339933 solid;
+	float: left;
+	margin: 1.5em 3em 1.5em 3em;
+}
+
+.user-datas2{
+	display: none;
+}
+
+.release-title{
+	width:40%;
+	margin-left: 40%;
+	margin-top: 2%;
+	float: left;}
+
+.underborder{
+	border-top:4px #339933 solid;
+	float: left;
+	width:55%; 
+	margin-left: -7%;
+}
+
+.release-title h4{
+	font-style: "Arial";
+	color:#339933;
+	font-size:1.45em;
+	font-weight:bolder;
+}
+
+.release-main1,.release-main2{
+	float: left;
+}
+
+	
+table{
+	margin-top: 2%;
+}
+
+.titl{
+	float: right;
+	width: 7em;
+	font-weight: bolder;
+	font-size: 1.15em;
+	color: #515151;}
+	.titl label{float: right;}
+	.titl span{color: red;}
+	.text{width: 12em;}
+	.checkbox{width: 120%;}
+	
+.titl-group input{ 	
+	border:none;
+	border-bottom: 1px solid #339933;
+	border-top:  1px solid #339933;
+	border-left:  1px solid #339933;
+	border-right:  1px solid #339933;
+	box-shadow:1px 1px 2px  #339933;
+	-moz-box-shadow:1px 1px 2px  #339933;
+	-webkit-box-shadow:1px 1px 2px  #339933;
+}
+
+.form-control{
+	border:none;
+	height: 2em;
+	border-bottom: 1px solid #339933;
+	border-top:  1px solid #339933;
+	border-left:  1px solid #339933;
+	border-right:  1px solid #339933;
+	box-shadow:1px 1px 2px  #339933;
+	-moz-box-shadow:1px 1px 2px  #339933;
+	-webkit-box-shadow:1px 1px 2px  #339933;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+		 		}
+
+.textbox{
+	width: 150%;
+	height: 5em;
+}
+
+.titl-last{
+	font-weight: bolder;
+	font-size: 1.15em;
+	color: #515151;
+}
+
+.titl-last span{
+	color: red;
+}
+
+.release-main2{display: none;}
+
+@media(max-width:1200px){
+.user-logo{
+	margin-left:5% ;
+	width: 90%;
+}
+
+.owns-aside,.owns-section{
+	height: 520px;
+}
+
+.ver-line{
+	margin: 1.5em 1.5em 1em 0.5em
+}
+}
+
+@media(max-width:990px){
+.col-md-0.1{
+	display: none;
+}
+.ver-line{
+	margin: 1.5em 0.5em;
+}
+.owns-section{
+	width: 70%;
+}
+.textbox{
+	width: 100%;
+	height: 5em;
+}
+
+
+
+@media(max-width:780px){
+.ver-line,.hor-line{
+	display: none;
+}
+.user-logo{
+	margin-left:5% ;
+	width: 80%;
+}
+.owns-aside,.owns-section{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.section-main{
+	margin-left: 15%;
+}
+.user{
+	float: left;
+	width: 50%;
+}
+.user-logo,.user-datas1{
+	margin-left: 20%;
+}
+.user-datas1{
+	margin-top: 5%;
+}
+.gradient{
+	float: right;
+	width: 50%;
+	margin-top: 5%;
+}
+	.text{width: 15em;}
+.textbox{
+	width: 100%;
+	height: 5em;
+	margin-bottom: 1em;
+}
+
+.release-title{
+	margin-left: 30%;}
+
+.underborder{
+	margin-left: -10%;
+}
+.gradient{
+	margin-top: 1em;
+}
+}
+
+@media(max-width:640px){
+.underborder{
+	width: 65%;
+	margin-left: -10%;
+}
+
+.release-main1{display: none;}
+.release-main2{display:block}
+}
+
+@media(max-width:550px){
+.release-title{
+	margin-left: 32%;}
+
+.underborder{
+	width: 68%;
+	margin-left: -10%;
+}
+
+.section-main{
+	margin-left: 5%;
+}
+}
+
+@media(max-width:480px){
+.user-logo,.user-datas1{
+	margin-left: 12%;
+}
+.section-main{
+	margin-left:0;
+}
+.user-datas1{
+	margin-top: 8%;
+}
+.underborder{
+	width: 75%;
+	margin-left: -10%;
+}
+}
+
+@media(max-width:460px){
+
+.user{
+	margin-top: 5%;
+	
+
+.underborder{
+	width: 90%;
+	margin-left: -10%;
+}
+
+}
+
+
+@media(max-width:360px){
+.user-datas1{
+	display: none;
+}
+.user-datas2{
+	display: block;
+	margin-left: 33%;
+}
+
+.underborder{
+	width: 100%;
+	margin-left: -10%;
+}
+.release-title h4{
+	font-size: 1.1em;
+}
+}
+
+@media(max-width:284px){
+.user{
+	margin-top: 30%;
+}
+}

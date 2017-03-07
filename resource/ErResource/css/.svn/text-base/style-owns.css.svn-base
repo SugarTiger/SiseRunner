@@ -1,0 +1,287 @@
+.owns-aside,.owns-section{
+	float: left;
+	background-color: #fff;
+}
+.owns-aside,.owns-section{
+	height: 550px;
+}
+
+.gradient{margin-top: 3em;}
+.gradient ul li{
+	list-style-type: none;
+}
+	
+.gradient a p{
+	font-weight: bolder;
+	margin: 2em 10% 0 10%;
+	text-indent:1.5em;
+	background: -webkit-linear-gradient(left, #339933 , #fff);
+  	background: -o-linear-gradient(right, #339933, #fff);
+	background: -moz-linear-gradient(right, #339933, #fff); 
+	background: linear-gradient(to right, #339933 , #fff); 
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=#339933);
+}
+
+.gradient a:hover{
+	text-align: right;
+	text-decoration:none;
+	color: black;
+}
+
+.btn-active{
+	text-align: right;
+}
+
+.user-datas1{
+	margin-left: 15%;
+}
+
+.hor-line{
+	border-top:1px #339933 solid;
+	float: left;
+	width:90%; 
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+			
+.ver-line{
+	height:90%; 
+	width:1px; 
+	border-left: 1px #339933 solid;
+	float: left;
+	margin: 1.5em 3em 1.5em 3em;
+}
+
+.owns-cat{
+	float: left;
+	width: 35%;
+	margin-top:10%;
+}	
+
+#obt1{color: #199ED8;}
+#obt2{color:#000000}
+#obt3{font-weight: 100;}
+
+.obta,.obtb{
+	font-size: 1.125em;
+}
+
+.obta{
+	margin-left: 10%;
+	margin-top: 7%;
+}
+
+.obtb{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.owns-box-text{
+	background-image: url(../img/u634.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 50%;
+	height: 40%;
+	margin-left: 5%;
+}
+
+.owns-section p{
+	margin-top: 18%;
+	margin-bottom: 2%;
+	font-weight: bolder;
+	font-size: 1.4em;
+	color: #339933;
+}
+
+.user-datas2{
+	display: none;
+}
+#osp2{display: none;}
+
+@media(max-width:1200px){
+.user-logo{
+	margin-left:5% ;
+	width: 90%;
+}
+
+.owns-aside,.owns-section{
+	height: 500px;
+}
+.ver-line{
+	margin: 1.5em 1.5em 1.5em 0.5em
+}
+.owns-cat{
+	float: left;
+	width: 40%;
+	margin-top:15%;
+	margin-left: -5%;
+}	
+.owns-box-text{
+	float: left;
+	width: 65%;
+	height: 40%;
+	margin-top: -40%;
+	margin-left: 38%;
+}
+}
+
+@media(max-width:990px){
+.owns-section p{
+	margin-top: 20%;
+	margin-bottom: 2%;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #339933;
+}
+
+.owns-box-text{
+	width: 95%;
+	height: 40%;
+	margin-top: 15%;
+	margin-left: -25%;
+}
+.owns-cat{
+	float: left;
+	width: 35%;
+	margin-top:10%;
+	margin-left: -5%;
+}	
+
+.owns-section p{
+	margin-top: 25%;
+	margin-left: 5%;
+}
+.col-md-0.1{
+	display: none;
+}
+}
+@media(max-width:780px){
+.ver-line,.hor-line{
+	display: none;
+}
+.user-logo{
+	margin-left:5% ;
+	width: 80%;
+}
+.owns-aside,.owns-section{
+	width: 100%;
+	height: auto;
+}
+.user{
+	float: left;
+	width: 50%;
+}
+.user-logo,.user-datas1{
+	margin-left: 20%;
+}
+.user-datas1{
+	margin-top: 5%;
+}
+.gradient{
+	float: right;
+	width: 50%;
+	margin-top: 5%;
+}
+.owns-box-text{
+	width: 95%;
+	height: 70%;
+	margin-top: -5%;
+	margin-left: 15%;
+	margin-bottom: 15%;
+}
+.owns-cat{
+	float: left;
+	width: 35%;
+	margin-top:10%;
+	margin-left: 5%;
+}	
+.obta{
+	margin-left: 8%;
+	margin-top: 3%;
+}
+
+.obtb{
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+#osp1{display: none;}
+#osp2{display: block;margin-left: 50%;margin-top: 25%;}
+
+}
+
+@media(max-width:620px){
+.owns-box-text{
+	margin-top: -5%;
+	margin-left: 10%;
+	margin-bottom: 15%;
+}
+}
+
+@media(max-width:550px){
+.owns-box-text{
+	margin-top: -5%;
+	margin-left: 3%;
+	margin-bottom: 15%;
+}
+}
+@media(max-width:500px){
+.owns-box-text{
+	background-image: none;
+}
+.owns-section p{
+	margin-top: 18%;
+	margin-bottom: 2%;
+	font-weight: bolder;
+	font-size: 1.2em;
+	color: #339933;
+}
+}
+@media(max-width:480px){
+.user-logo,.user-datas1{
+	margin-left: 12%;
+}
+.user-datas1{
+	margin-top: 8%;
+}
+}
+
+@media(max-width:460px){
+.user{
+	margin-top: 5%;
+}
+
+.owns-cat{
+	width: 35%;
+	margin-top:15%;
+}	
+}
+
+@media(max-width:360px){
+.user-datas1{
+	display: none;
+}
+.user-datas2{
+	display: block;
+	margin-left: 33%;
+}
+
+.owns-cat{
+	width: 35%;
+	margin-top:20%;
+}	
+
+}
+
+@media(max-width:284px){
+.user{
+	margin-top: 30%;
+}
+
+.owns-cat{
+	width: 40%;
+	margin-top:25%;
+}	
+
+}
