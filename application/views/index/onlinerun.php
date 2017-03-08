@@ -1,6 +1,3 @@
-<?php
-require_once "xheader.php";	
-?>
 <!DOCTYPE html>
 <html>
 <head>

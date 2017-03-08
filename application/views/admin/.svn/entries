@@ -2,7 +2,7 @@
 
 dir
 28
-svn://172.16.144.107/SiseRunner/resource
+svn://172.16.144.107/SiseRunner/application/views/admin
 svn://172.16.144.107
 
 
@@ -25,22 +25,4 @@ lzf
 
 
 3c8d3359-e2e6-df47-9955-27d5a4a43f54
-
-css
-dir
-
-admin
-dir
-
-fonts
-dir
-
-img
-dir
-
-js
-dir
-
-ErResource
-dir
 
