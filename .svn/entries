@@ -1,14 +1,14 @@
 10
 
 dir
-28
+32
 svn://172.16.144.107/SiseRunner
 svn://172.16.144.107
 
 
 
-2017-03-08T01:05:49.874676Z
-28
+2017-03-10T07:51:49.529534Z
+32
 lzf
 
 
@@ -63,45 +63,14 @@ Administrator
 .git
 dir
 
+.vscode
+dir
+
 application
 dir
 
 system
 dir
-
-readme.rst
-file
-
-
-
-
-2017-03-06T09:36:43.303722Z
-3992e1273be927ef0eb31f70c5cc3e21
-2017-03-06T09:34:28.632419Z
-21
-Administrator
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2353
 
 .project
 file

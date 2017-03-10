@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>健身指南</title>
-	<link rel="stylesheet" href="<?php echo base_url('resource/css'); ?>/guidance-css.css" />
+	<link rel="stylesheet" href="<?php echo base_url('resource/index/css'); ?>/guidance-css.css" />
 </head>
 <body onload="callBackPagination(Number($('#totalCount1').val()),Number($('#limit').val()))">
 	<!--加载时调用callBackPagination方法载入页码，参数是总数据条数和每页显示数量-->
@@ -32,7 +32,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<a href="#">
-							<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
+							<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
 							<div class="content">
 								<h2>春季跑步谨记6点</h2>
 								<p>
@@ -49,7 +49,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<a href="#">
-							<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
+							<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
 							<div class="content">
 								<h2>春季跑步谨记6点</h2>
 								<p>
@@ -66,7 +66,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<a href="#">
-							<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
+							<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" class="pull-left img-rounded myimg">
 							<div class="content">
 								<h2>春季跑步谨记6点</h2>
 								<p>
@@ -116,19 +116,19 @@
 								<div class="row">
 									<div class="col-xs-6 col-md-6">
 										<a href="#" class="thumbnail">
-											<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
+											<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
 									</div>
 									<div class="col-xs-6 col-md-6">
 										<a href="#" class="thumbnail">
-											<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
+											<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
 									</div>
 									<div class="col-xs-6 col-md-6">
 										<a href="#" class="thumbnail">
-											<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
+											<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
 									</div>
 									<div class="col-xs-6 col-md-6">
 										<a href="#" class="thumbnail">
-											<img src="<?php echo base_url('resource/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
+											<img src="<?php echo base_url('resource/index/img'); ?>/guidance.fw_1.gif" alt="最新推荐"></a>
 									</div>
 								</div>
 							</div>
@@ -150,7 +150,7 @@
 					<div class="title3">
 						<a href="#">
 							<h4>
-								<img src="<?php echo base_url('resource/img'); ?>/guidance_share.gif" />
+								<img src="<?php echo base_url('resource/index/img'); ?>/guidance_share.gif" />
 								<b>我要分享</b>
 							</h4>
 						</a>
@@ -163,7 +163,7 @@
 				<div class="panel-body">
 					<div class="col-xs-6  col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -174,12 +174,12 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
 									<a href="#">
-										<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+										<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 									</a>
 								</a>
 							</p>
@@ -187,7 +187,7 @@
 					</div>
 					<div class="col-xs-6 col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -198,12 +198,12 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
 									<a href="#">
-										<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+										<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 									</a>
 								</a>
 							</p>
@@ -211,7 +211,7 @@
 					</div>
 					<div class="col-xs-6 col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -222,18 +222,18 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 								</a>
 							</p>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -244,18 +244,18 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 								</a>
 							</p>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -266,18 +266,18 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 								</a>
 							</p>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4">
 						<a href="#" class="thumbnail">
-							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/img'); ?>/guidance_r2_c2.gif"></a>
+							<img alt="最适合运动前的5种食物" src="<?php echo base_url('resource/index/img'); ?>/guidance_r2_c2.gif"></a>
 						<div class="caption">
 							<a href="#">
 								<h4>最适合运动前的5种食物</h4>
@@ -288,11 +288,11 @@
 							</p>
 							<p>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r4_c2.gif" class="img-head"/>
 									<span>诺亚方舟</span>
 								</a>
 								<a href="#">
-									<img src="<?php echo base_url('resource/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
+									<img src="<?php echo base_url('resource/index/img'); ?>/guidance_r5_c5.gif" class="img-like"/>
 								</a>
 							</p>
 						</div>
@@ -313,6 +313,6 @@
 			<input type="hidden" name="page" id="page" value="1"/>
 		</div>
 	</footer>
-	<script type="text/javascript" src="<?php echo base_url('resource/js'); ?>/extendPagination.js" ></script>
+	<script type="text/javascript" src="<?php echo base_url('resource/index/js'); ?>/extendPagination.js" ></script>
 </body>
 </html>

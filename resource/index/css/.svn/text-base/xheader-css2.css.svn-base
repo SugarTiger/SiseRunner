@@ -1,0 +1,178 @@
+body,
+h1,
+h2,
+h3,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+p,
+form,
+fieldset,
+input,
+button,
+textarea,
+hr{margin:0;padding:0}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+img { max-width: 100%; }
+.hidden{
+	display:none;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+body div{
+	/*border: 1px solid #333333;*/
+}
+body{
+	font: "微软雅黑";
+	color: #000000;
+}
+.header{
+	height: 20px;
+	width: 100%;
+	background-color: #009945;
+	color: white;
+	margin: 0 auto;
+}
+#wecome{
+	margin-left: 5%;
+	line-height: 20px;
+}
+#wecome a{
+	color: white;
+}
+.top-header{
+	margin: 20px 0;
+}
+.top-header #seo-div{
+	margin-top: 10px;
+}
+#logo-img2{
+		display: none;
+	}
+.search-div input[type="text"]{
+	border: 1px solid #009945;
+}
+.search-div button{
+	border: 1px solid #009945;
+	background-color: #009945;
+	color: #ffffff;
+}
+.search-div button:hover{
+	background-color: #009947;
+	color: #ffffff;
+}
+.search-div button:checked{
+	background-color: #009947;
+	color: #ffffff;
+}
+.nav-div{
+	border-left: none;
+	border-right: none;
+	background-color: #ffffff;
+}
+.nav-div2{
+	display: none;
+}
+.in-nav{
+	/*18px*/
+	width: 818px;
+	/*16px*/
+	/*width: 766px;*/
+	/*14px*/
+	/*width: 714px;*/
+	margin: 0 auto;
+}
+.in-nav a{
+	font-size: 18px;
+}
+.in-nav li a:hover{
+	color:#009945;
+}
+.in-nav li{
+	margin: 0 10px;
+}
+@media (max-width: 991px) {
+	#logo-img1{
+		display: none;
+	}
+	#logo-img2{
+		display:block;
+	}
+	.in-nav a{
+	font-size: 16px;
+	}
+	.in-nav{
+		/*16px*/
+		width: 626px;
+	}
+	.in-nav li{
+		margin: 0;
+	}
+}
+@media (max-width: 768px) {
+	.nav-div{
+		display: none;
+	}
+	.nav-div2{
+		display: block;
+	}
+	.nav-div2 button:checked{
+		background-color: #009945;
+	}
+	#in-nav2{
+		width: 96%;
+		margin: 0 auto;
+	}
+	#nav-title{
+		font-size: 17px;
+	}
+}	
+}
+/*****左侧*****/
+#left{
+	width:30%;
+	height:800px;
+	margin-top:-50px;
+	background-color:#EFF8FC;
+}
+#edit-ur a{
+	color:#9ea39d;
+}
+.user-ico{
+	width:140px;
+	height: 108px;
+	margin: 20px;
+
+}
+.text-left{
+	color:#636564;
+	margin-left: 20px;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+#tab-content{
+	margin: 50px;
+}
+.red{
+	color: red;
+}
+#right{
+	width: 830px;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+/***右侧*****/
+.text-center{
+	margin: 30px 0px 0px -20px;
+}

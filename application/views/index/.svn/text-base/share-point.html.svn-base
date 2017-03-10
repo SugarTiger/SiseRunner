@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width"/>
+		<title>华软跑族</title>
+		<link rel="stylesheet" href="<?php echo base_url('resource/index/css'); ?>/bootstrap.css" />
+		<link rel="stylesheet" href="<?php echo base_url('resource/index/css'); ?>/xheader2-css.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('resource/index/css'); ?>/index.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('resource/index/css'); ?>/ap-css.css"/>
+		<script src="<?php echo base_url('resource/index/js'); ?>/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="<?php echo base_url('resource/index/js'); ?>/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="./<?php echo base_url('resource/index/js'); ?>/edit.js"></script>
+		<script type="text/javascript">
+			window.UEDITOR_HOME_URL = ''
+			window.onload=function(){
+				window.UEDITOR_CONFIG.initialFrameWidth="1200"
+				window.UEDITOR_CONFIG.initialFrameHeight="300"
+				UE.getEditor("myEditor")
+			}
+       </script>
+		</script>
+		<script src="<?php echo base_url('resource/index/Ueditor'); ?>/ueditor.config.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="<?php echo base_url('resource/index/Ueditor'); ?>/ueditor.all.js" ></script>
+		
+	</head>
+	<body class="body">
+		<!--顶部-->
+		<header id="ap-header" class="header">
+			<span id="wecome">
+				<a href="re.html">注册</a> | <a href="#" id="login">登陆</a>
+			</span>
+			<span id="wecome" style="float: right;margin-right: 100px;">
+<div class="dropdown">
+	<button type="button" class=" dropdown-toggle" id="dropdownMenu1" 
+			data-toggle="dropdown">
+		欢迎你，<span>sussie</span>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side1" style="color: #009945;">个人中心	</a>
+		</li>
+		<li role="presentation" >
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side2" style="color: #009945;">我的约跑</a>
+		</li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side3" style="color: #009945;">我的指南</a>
+		</li>
+	</ul>
+</div>
+			</span>
+		</header>
+		<!--主内容-->
+		<div id="allmain" class="container">
+			<!--logo 和 搜索框-->
+			<header id="top-header" class="row top-header">
+				<div id="logo-div" class="logo-div col-md-8">
+					<a href="<?php echo site_url('SiseRunHome'); ?>"><img src="<?php echo base_url('resource/index/img'); ?>/logo.png" id="logo-img1" /></a>
+					<a href="<?php echo site_url('SiseRunHome'); ?>"><img src="<?php echo base_url('resource/index/img'); ?>/logo.png" class="img-responsive center-block" id="logo-img2" /></a>
+				</div>
+				<div id="seo-div" class="col-md-4">
+					<div class="input-group search-div">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+				        <button class="btn btn-default" type="button">搜索</button>
+				      </span>
+					</div>
+				</div>
+			</header>
+			<!--logo 和 搜索 end-->
+			<!--导航-->
+			<!--width大于768px显示导航1-->
+			<nav class="navbar navbar-default nav-div" role="navigation">
+				<div class="in-nav">
+					<div class="navbar-header">
+						<ul class="nav navbar-nav">
+							<li><a href="<?php echo site_url('SiseRunHome'); ?>">首页</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/about'); ?>">关于跑族</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/appointment'); ?>">我要约</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/onlinerun'); ?>">线上马拉松</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/story'); ?>">跑者故事</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/guidance'); ?>">健康向导</a></li>
+							<li><a href="<?php echo site_url('er/ErIndex'); ?>">二货市场</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--width小于768px显示导航2-->
+			<div id="in-nav2">
+				<nav class="navbar navbar-default nav-div2" role="navigation">
+					<div class="navbar-header ">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#" id="nav-title">华软跑族</a>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="<?php echo site_url('SiseRunHome'); ?>">首页</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/about'); ?>">关于跑族</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/appointment'); ?>">我要约</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/onlinerun'); ?>">线上马拉松</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/story'); ?>">跑者故事</a></li>
+							<li><a href="<?php echo site_url('SiseRunHome/guidance'); ?>">健康向导</a></li>
+							<li><a href="<?php echo site_url('er/ErIndex'); ?>">二货市场</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!--导航end-->
+			</div>
+			<div class="atl-add-bg"> 
+            <div class="atl-add-head pb-main"> 
+          <h3>分享你跑过的路：告诉我们跑者的心态</h3> 
+      <p>一场马拉松就是一次人生体验，过程中有过新奇与兴奋，有过心酸与痛苦，也有过泪水与笑容，但唯有坚持下来，你才可以有这么丰富的体验。
+      如果你想拥有更多的人生体验，就去尝试跑马拉松吧，因为那会是你探知生命的奇幻之旅。从现在开始，分享你的故事，满足我们的好奇心，来一场最为惊心动魄的奇妙跑者之谈。</p> 
+           </div> 
+           </div> 
+           <!--故事编辑-->
+<div class="container story-m"> 
+       <div class="row "> 
+       <form id="story-user-form" action="" method="post"> 
+       <h3 class="pb-size-big ">指南类型</h3> 
+       <input  class="input-l" name="" id="" type="text" maxlength="50"/> </p> 
+      <br />
+       <h3 class="pb-size-big ">内容</h3> 
+       <p> <textarea name="" id="myEditor" class="te-l"></textarea> </p> 
+       <input type="button" value="发布" name="submit" class="postblogbutton"/> 
+      </form> 
+     </div> 
+</div> 
+				<!--故事编辑end-->
+	</body>
+</html>

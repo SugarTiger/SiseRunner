@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>线上马拉松</title>
-	<link rel="stylesheet" href="<?php echo base_url('resource/css'); ?>/onlinerun-css.css" />
+	<link rel="stylesheet" href="<?php echo base_url('resource/index/css'); ?>/onlinerun-css.css" />
 </head>
 <body>
 <div class="container">
@@ -21,11 +21,11 @@
 					<!-- 轮播（Carousel）项目 -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="<?php echo base_url('resource/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
+							<img src="<?php echo base_url('resource/index/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
 						<div class="item">
-							<img src="<?php echo base_url('resource/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
+							<img src="<?php echo base_url('resource/index/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
 						<div class="item">
-							<img src="<?php echo base_url('resource/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
+							<img src="<?php echo base_url('resource/index/img'); ?>/onlinerun_r2_c2.gif" alt="banner"></div>
 					</div>
 
 					<!-- 轮播（Carousel）导航 -->
@@ -168,6 +168,6 @@
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="<?php echo base_url('resource/js'); ?>/onlinerun.js"></script>
+	<script type="text/javascript" src="<?php echo base_url('resource/index/js'); ?>/onlinerun.js"></script>
 </body>
 </html>
