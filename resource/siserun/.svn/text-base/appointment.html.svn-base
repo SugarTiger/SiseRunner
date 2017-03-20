@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title>约跑活动</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/自适应ap-css.css" />
+	</head>
+	<body class="body">
+		<!--顶部-->
+		<header id="ap-header" class="header">
+			<span id="wecome">
+				<a href="re.html">注册</a> | <a href="#" id="login">登陆</a>
+			</span>
+			<span id="wecome" style="float: right;margin-right: 100px;">
+<div class="dropdown">
+	<button type="button" class=" dropdown-toggle" id="dropdownMenu1" 
+			data-toggle="dropdown">
+		欢迎你，<span>sussie</span>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side1" style="color: #009945;">个人中心	</a>
+		</li>
+		<li role="presentation" >
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side2" style="color: #009945;">我的约跑</a>
+		</li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side3" style="color: #009945;">我的指南</a>
+		</li>
+	</ul>
+</div>
+			</span>
+		</header>
+		<!--主内容-->
+		<div id="allmain" class="container">
+			<!--logo 和 搜索框-->
+			<header id="top-header" class="row top-header">
+				<div id="logo-div" class="logo-div col-md-8">
+					<a href="#"><img src="img/logo.png" id="logo-img1" /></a>
+					<a href="#"><img src="img/logo.png" class="img-responsive center-block" id="logo-img2" /></a>
+				</div>
+				<div id="seo-div" class="col-md-4">
+					<div class="input-group search-div">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+				        <button class="btn btn-default" type="button">搜索</button>
+				      </span>
+					</div>
+				</div>
+			</header>
+			<!--logo 和 搜索 end-->
+			<!--导航-->
+			<!--width大于768px显示导航1-->
+			<nav class="navbar navbar-default nav-div" role="navigation">
+				<div class="in-nav">
+					<div class="navbar-header">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="about.html">关于跑族</a>
+							</li>
+							<li>
+								<a href="appointment.html">我要约</a>
+							</li>
+							<li>
+								<a href="onlinerun.html">线上马拉松</a>
+							</li>
+							<li>
+								<a href="story.html">跑者故事</a>
+							</li>
+							<li>
+								<a href="guidence.html">健康向导</a>
+							</li>
+							<li>
+								<a href="market.html">二货市场</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--width小于768px显示导航2-->
+			<div id="in-nav2">
+				<nav class="navbar navbar-default nav-div2" role="navigation">
+					<div class="navbar-header ">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#" id="nav-title">华软跑族</a>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="about.html">关于跑族</a>
+							</li>
+							<li>
+								<a href="appointment.html">我要约</a>
+							</li>
+							<li>
+								<a href="onlinerun.html">线上马拉松</a>
+							</li>
+							<li>
+								<a href="story.html">跑者故事</a>
+							</li>
+							<li>
+								<a href="#">健康向导</a>
+							</li>
+							<li>
+								<a href="#">二货市场</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!--导航end-->
+			
+					<div id="main">
+						<section id="section-left">
+							<header id="section-header" class="section-header">
+								<span class="fankuai1"></span>
+								<a href="#">约跑活动</a>
+							</header>
+							<article class="article">
+								<div class="article-left tz1">
+									<p id="title-g1" class="title">下班小溜一圈</p>
+									<p id="ap-info1" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text1" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining1" class="joining" name="joining" value="报名" />
+									<a href="ap-de.html" id="more1">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g2" class="title">下班小溜一圈</p>
+									<p id="ap-info2" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text2" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining2" class="joining" name="joining" value="报名" />
+									<a href="#" id="more2">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g3" class="title">下班小溜一圈</p>
+									<p id="ap-info3" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text3" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining3" class="joining" name="joining" value="报名" />
+									<a href="#" id="more3">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g4" class="title">下班小溜一圈</p>
+									<p id="ap-info4" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text4" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining4" class="joining" name="joining" value="报名" />
+									<a href="#" id="more4">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g5" class="title">下班小溜一圈</p>
+									<p id="ap-info5" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text5" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining5" class="joining" name="joining" value="报名" />
+									<a href="#" id="more5">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g6" class="title">下班小溜一圈</p>
+									<p id="ap-info6" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text6" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining6" class="joining" name="joining" value="报名" />
+									<a href="#" id="more6">查看全文》</a>
+								</div>
+							</article>
+							<article class="article">
+								<div class="article-left tz2">
+									<p id="title-g7" class="title">下班小溜一圈</p>
+									<p id="ap-info7" class="ap-info">发布人：<span id="er">BET</span>&nbsp;&nbsp;&nbsp;&nbsp;活动时间：<span id="time">2016-06-09 17:00</span></p>
+									<p id="hd-text7" class="hd-text">小溜达一圈</p>
+								</div>
+								<div class="article-right">
+									<input type="button" id="joining7" class="joining" name="joining" value="报名" />
+									<a href="#" id="more7">查看全文》</a>
+								</div>
+							</article>
+							<a href="#">点击加载更多</a>
+						</section>
+						<section id="section-right">
+							<article class="article-r">
+								<header class="article-header">
+									<span class="fankuai2"></span>
+									<a href="#">最新活动</a>
+								</header>
+								<div id="new-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+								<div id="new-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+								<div id="new-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+							</article>
+
+							<article class="article-r">
+								<header class="article-header">
+									<span class="fankuai2"></span>
+									<a href="#">热门活动</a>
+								</header>
+								<div id="hot-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+								<div id="hot-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+								<div id="hot-ap" class="ap">
+									<a href="#">
+										<div class="ap-list">
+											<span id="ap-title">小溜达一圈</span>
+											<img src="img/img1.png" />
+										</div>
+									</a>
+								</div>
+							</article>
+
+							<article class="article-r">
+								<header class="article-header">
+									<span class="fankuai2"></span>
+									<a href="#">活动达人</a>
+								</header>
+								<div id="ap-er" class="er">
+									<a href="#"><img src="img/img2.png" /></a>
+									<div class="ap-er-right">
+										<span id="er-name">SUSSIE</span>
+										<input type="button" id="gz" class="gz" name="gz" value="+关注TA" />
+									</div>
+								</div>
+								<div id="ap-er" class="er">
+									<a href="#"><img src="img/img2.png" /></a>
+									<div class="ap-er-right">
+										<span id="er-name">SUSSIE</span>
+										<input type="button" id="gz" class="gz" name="gz" value="+关注TA" />
+									</div>
+								</div>
+								<div id="ap-er" class="er">
+									<a href="#"><img src="img/img2.png" /></a>
+									<div class="ap-er-right">
+										<span id="er-name">SUSSIE</span>
+										<input type="button" id="gz" class="gz" name="gz" value="+关注TA" />
+									</div>
+								</div>
+							</article>
+						</section>
+					</div>
+				</div>
+				<!--主内容end-->
+				<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+				<script type="text/javascript" src="js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="js/ap-js.js"></script>
+	</body>
+</html>

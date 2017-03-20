@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<style type="text/css">
+		body{background: url(img/rbg.jpg) repeat-y top center;}
+	</style>
+	<body>
+		<div class="rebox">
+    <div class="retop">
+        <a href="/" class="rlogo">
+            <img src="img/logo.png" alt=""></a>
+        <span>已经是注册会员,返回首页 <a href="">登录</a></span>
+    </div>
+    <div class="refrome refi">
+        <form id="form">
+        	<div class="newregist">
+                <input type="text" placeholder="昵称" value="" name="txtNick" id="txtNick" >
+                <div class="Validform_checktip">避免使用敏感词汇</div>
+            </div>
+            <div class="newregist">
+                <input type="text" placeholder="真实姓名" value="" name="txtNickname" id="txtNickname" >
+            </div>
+            <div class="newregist">
+                <input type="text" placeholder="手机号" value="" name="loginCode" id="loginCode">
+                <div class="Validform_checktip">只能使用手机号</div>
+            </div>
+            <div class="newregist">
+                <input type="password"  value="" name="txtPassWord" id="txtPassWord" class="passwd" placeholder="密码" >
+                <div class="Validform_checktip">密码至少6位</div>
+            </div>
+            <div class="newregist">
+                <input type="text" name="txtCode" id="txtCode"  value=""  class="ajaxve m80" data-op="loginCode" data-get="0" placeholder="图形验证码" />
+                <div class="rcodebox"><img src="img/zc_22.jpg" id="vimg" class="vimg" onclick="change()"/><a onclick="change()" href="" class="rloadcode"><i>换一张</i></a></div>
+                <div class="Validform_checktip"></div>
+            </div>
+            <a id="register">立即注册</a>
+        </form>
+    </div>
+</div>
+	</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title>关于</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/自适应ap-css.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.flipster.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body class="body">
+		<!--顶部-->
+		<header id="ap-header" class="header">
+			<span id="wecome">
+				<a href="re.html">注册</a> | <a href="#" id="login">登陆</a>
+			</span>
+			<span id="wecome" style="float: right;margin-right: 100px;">
+<div class="dropdown">
+	<button type="button" class=" dropdown-toggle" id="dropdownMenu1" 
+			data-toggle="dropdown">
+		欢迎你，<span>sussie</span>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side1" style="color: #009945;">个人中心	</a>
+		</li>
+		<li role="presentation" >
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side2" style="color: #009945;">我的约跑</a>
+		</li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="id-card1.html#side3" style="color: #009945;">我的指南</a>
+		</li>
+	</ul>
+</div>
+			</span>
+		</header>
+		<!--主内容-->
+		<div id="allmain" class="container">
+			<!--logo 和 搜索框-->
+			<header id="top-header" class="row top-header">
+				<div id="logo-div" class="logo-div col-md-8">
+					<a href="#"><img src="img/logo.png" id="logo-img1" /></a>
+					<a href="#"><img src="img/logo.png" class="img-responsive center-block" id="logo-img2" /></a>
+				</div>
+				<div id="seo-div" class="col-md-4">
+					<div class="input-group search-div">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+				        <button class="btn btn-default" type="button">搜索</button>
+				      </span>
+					</div>
+				</div>
+			</header>
+			<!--logo 和 搜索 end-->
+			<!--导航-->
+			<!--width大于768px显示导航1-->
+			<nav class="navbar navbar-default nav-div" role="navigation">
+				<div class="in-nav">
+					<div class="navbar-header">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="about.html">关于跑族</a>
+							</li>
+							<li>
+								<a href="appointment.html">我要约</a>
+							</li>
+							<li>
+								<a href="onlinerun.html">线上马拉松</a>
+							</li>
+							<li>
+								<a href="story.html">跑者故事</a>
+							</li>
+							<li>
+								<a href="guidence.html">健康向导</a>
+							</li>
+							<li>
+								<a href="market.html">二货市场</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--width小于768px显示导航2-->
+			<div id="in-nav2">
+				<nav class="navbar navbar-default nav-div2" role="navigation">
+					<div class="navbar-header ">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#" id="nav-title">华软跑族</a>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="about.html">关于跑族</a>
+							</li>
+							<li>
+								<a href="appointment.html">我要约</a>
+							</li>
+							<li>
+								<a href="onlinerun.html">线上马拉松</a>
+							</li>
+							<li>
+								<a href="story.html">跑者故事</a>
+							</li>
+							<li>
+								<a href="#">健康向导</a>
+							</li>
+							<li>
+								<a href="#">二货市场</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!--导航end-->
+		<!-- 代码部分begin -->
+<!-- 代码部分begin -->
+<div class="flipster">
+	<ul>
+		<li>
+			<img src="img/run-1.jpg" class="Button Block"/>
+		</li>
+		<li>
+			<img src="img/run-2.jpg" class="Button Block"/>
+		</li>
+		<li>
+			<img src="img/run-3.jpg" class="Button Block"/>
+		</li>
+		<li>
+			<img src="img/run-4.jpg" class="Button Block"/>
+		</li>
+		<li>
+			<img src="img/run-5.jpg" class="Button Block"/>
+		</li>
+  	</ul>
+</div>
+<!--
+        	关于开始
+   --> 
+	<div class="container container-run">
+		<article class="row">
+			<h2 class="text-center"><span>华软</span> 跑族</h2>
+			<p>是华软学院师生自发成立的长跑队，截止目前先后集体参加过3次广州马拉松、2次清远马拉松。
+				今年，华软学院工会组织师生第2次“团跑”清远马拉松，从去年20<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多人到今年飙升到70人，
+				其中，何大进院长等8人跑全马，陈孝如老师等33人跑半马，陈婷婷老师等24人跑迷你马，名单中虽然是20多人跑迷你马<br>&nbsp;
+			其中，何大院长等8人跑全马，陈孝如老师等33人跑半马，陈婷婷老师等24人跑迷你马，名单中虽然是20多人跑迷你马，但是很多跑迷你马的老师都跑了半马。</p>
+		</article>	
+	</div>	
+<div class="blog" id="blog" >
+	<div class="container">
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="img/run-1.jpg" alt="清远马拉松"></a>
+					<div class="blog-text">
+						<p>12月11日，华软学院何大进院长率领“华软跑族”出现在2016年广州马拉松赛道上，这已是何院长第四年率领华软教工征战广马。今年共有12名教工（含1名校友）参加广马，就有10人参加全程马拉松，创历史新高。
+				12月11日，华软学院何大进院长率领“华软跑族”出现在2016年广州马拉松赛道上，这已是何院长第四年率领华软教工征战广马。今年共有12名教工（含1名校友）参加广马，就有10人参加全程马拉松，创历史新高。.</p>
+					</div>
+				
+					<div class="blog-pos">
+						<p>清远<span>马拉松</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="img/run-2.jpg" alt="清远马拉松"></a>
+					<div class="blog-text">
+						<p>12月11日，华软学院何大进院长率领“华软跑族”出现在2016年广州马拉松赛道上，这已是何院长第四年率领华软教工征战广马。今年共有12名教工（含1名校友）参加广马，就有10人参加全程马拉松，创历史新高。
+				12月11日，华软学院何大进院长率领“华软跑族”出现在2016年广州马拉松赛道上，这已是何院长第四年率领华软教工征战广马。今年共有12名教工（含1名校友）参加广马，就有10人参加全程马拉松，创历史新高。.</p>
+					</div>
+				
+					<div class="blog-pos">
+						<p>广州<span>马拉松</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="img/run-3.jpg" alt="清远马拉松"></a>
+					<div class="blog-text">
+						<p>“华软跑族”是华软学院师生自发成立的长跑队，截止目前先后集体参加过3次广州马拉松、2次清远马拉松。<br />
+				今年，华软学院工会组织师生第2次“团跑”清远马拉松，从去年20多人到今年飙升到70多人，<br />
+				其中，何大进院长等8人跑全马，陈孝如老师等33人跑半马，陈婷婷老师等24人跑迷你马，名单中虽然是20多人跑迷你马，但是很多跑迷你马的老师都跑了半马。</p>
+					</div>
+					<div class="blog-pos">
+						<p>华软<span>职工</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.flipster.js"></script>
+<script>
+$(function(){ $(".flipster").flipster({ style: 'carousel', start: 0 }); });</script>
+<!-- 代码部分end -->
+	</body>
+</html>
